@@ -20,7 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="resources/static/css/creative.min.css" rel="stylesheet">
-	<title>Insert title here</title>
+	<title>Insertar tiítulo aquí</title>
 </head>
 
 <body id="page-top">
