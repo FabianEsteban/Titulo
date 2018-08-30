@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<link href="resources/static/css/inicio.css" rel="stylesheet">
-	<link href="resources/static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="resources/static/css/inicio/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="resources/static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -56,7 +56,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+              <strong>Tu Mejor Portal Para Conseguir Trabajo</strong>
             </h1>
             <hr>
           </div>

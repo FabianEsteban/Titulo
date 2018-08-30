@@ -25,27 +25,35 @@ public class HelloController {
     protected final Log logger = LogFactory.getLog(getClass());
 
     @RequestMapping(value="/inicio")
-    public ModelAndView handleRequest(Model model, HttpServletRequest request, HttpServletResponse response)
+    public ModelAndView inicio(Model model, HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         model.addAttribute("javaScriptPage", "inicio");      
         return new ModelAndView("inicio");
     }
-    @RequestMapping(value="/cuerpo")
-    public ModelAndView handleRequest2(Model model, HttpServletRequest request, HttpServletResponse response)
+    @RequestMapping(value="/perfil")
+    public ModelAndView perfil(Model model, HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
     	
-    	model.addAttribute("javaScriptPage", "cuerpo");
+    	model.addAttribute("javaScriptPage", "perfil");
         
-        return new ModelAndView("cuerpo");
+        return new ModelAndView("perfil");
     }
     @RequestMapping(value="/login")
-    public ModelAndView handleRequest3(Model model, HttpServletRequest request, HttpServletResponse response)
+    public ModelAndView login(Model model, HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
     	
     	model.addAttribute("javaScriptPage", "login");
         
         return new ModelAndView("login");
+    }
+    @RequestMapping(value="/curriculum")
+    public ModelAndView curriculum(Model model, HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+    	
+    	model.addAttribute("javaScriptPage", "curriculum");
+        
+        return new ModelAndView("curriculum");
     }
 //    @RequestMapping(value="/titulo/getDatos", method = {RequestMethod.GET, RequestMethod.POST})
 //	public @ResponseBody ArrayList<clase>getVariable() throws Exception{
